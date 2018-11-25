@@ -29,3 +29,7 @@ spring:
       fail-on-empty-beans: false
   liquibase:
     change-log: classpath:db/changelog-master.yaml
+logging:
+  level:
+    ROOT: DEBUG
+    com.github.ipan97.learnspringaop: DEBUG
