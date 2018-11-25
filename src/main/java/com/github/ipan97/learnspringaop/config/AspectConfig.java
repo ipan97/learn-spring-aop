@@ -8,7 +8,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * @author Ipan Taupik Rahman
  */
 @Configuration
-@ComponentScan(basePackages = "com.github.ipan97.learnspringaop.aop")
+@ComponentScan(basePackages = "com.github.ipan97.learnspringaop")
 @EnableAspectJAutoProxy
 public class AspectConfig {
 }
