@@ -5,7 +5,7 @@ spring:
     name: learn-spring-aop
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5433/learn_spring_aop
+    url: jdbc:postgresql://localhost:5432/learn_spring_aop
     username: ${POSTGRESQL_USERNAME:postgres}
     password: ${POSTGRESQL_PASSWORD:postgres}
   jpa:
